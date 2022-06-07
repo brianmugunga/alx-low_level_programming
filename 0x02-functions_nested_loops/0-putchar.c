@@ -8,9 +8,9 @@
 int main(void)
 {
 	_putchar('M');
-	_putchar('A');
-	_putchar('l');
-	_putchar('N');
+	_putchar('a');
+	_putchar('i');
+	_putchar('n');
 
 	return (0);
 }
