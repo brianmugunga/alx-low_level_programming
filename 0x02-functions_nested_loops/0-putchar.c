@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Prints "Main" followed by a new line.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int i
-	char p = "Main";
+	_putchar('M');
+	_putchar('A');
+	_putchar('l');
+	_putchar('N');
 
-	for (i = 0; i < 9; i++)
-		{
-		_putchar(p[i]);
-		}
-		_putchar('\n');
 	return (0);
 }
