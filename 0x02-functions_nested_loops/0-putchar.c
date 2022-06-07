@@ -1,4 +1,4 @@
-#include "putchar.h"
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-	char *sh = "putchar";
+	int i;
+	char p[] = "Main";
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
 	return (0);
 }
