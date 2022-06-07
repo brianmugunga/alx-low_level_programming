@@ -6,10 +6,10 @@
 * Return: Always 0 (Success)
 */
 
-int _putchar(char c);
+int main(char c);
 {
 	char p[] = "_putchar";
-
+	int i;
 	for (i = 0; i < 8; i++)
 		{
 		_putchar(p[i]);
