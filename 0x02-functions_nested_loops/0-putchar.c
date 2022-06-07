@@ -5,15 +5,16 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i;
-	char string[] = "Main\n";
+	char p[] = "main";
 
-	for (i = 0; i <= 9; i++)
-	{
-		_putchar(string[i]);
-	}
-
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
 	return (0);
 }
