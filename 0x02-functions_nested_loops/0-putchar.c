@@ -1,20 +1,13 @@
-#include "main.h"
+#include <main.h>
 
 /**
-* main - Print the word "Main"
-*
-* Return: Always 0 (Success)
-*/
-
-int main(void)
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-	int i;
-	char p[] = "Main";
-
-	for (i = 0; i < 9; i++)
-		{
-		_putchar(p[i]);
-		}
-		_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
