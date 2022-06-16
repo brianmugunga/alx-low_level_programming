@@ -1,25 +1,29 @@
-#include "mainn.h"
+#include <stdio.h>
 
 /**
- * rot13 - encodes a string in rot13
- * @s: string to be encoded
+ *rot13 - encodes a string using rot13
  *
- * Return: the resulting string
+ *@s: string to encode
+ *Return: pointer to the encoded string
  */
+
+
 char *rot13(char *s)
 {
+
 	int i, j;
+
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i]; i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
+		for (j = 0; a[j] || b[j]; j++)
 		{
 			if (s[i] == a[j])
-			{
-				s[i] = b[j];
+			{s[i] = b[j];
 				break;
+
 			}
 		}
 	}
