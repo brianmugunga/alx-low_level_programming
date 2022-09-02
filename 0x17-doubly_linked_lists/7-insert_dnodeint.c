@@ -3,8 +3,6 @@
 #include <stdio.h>
 
 /**
- * File: 7-insert_dnodeint.c
- * Auth: Brian Mugunga
  * insert_dnodeint_at_index - inserts a new node at a given position
  * @h: double pointer to the beginning of the linked list
  * @idx: index at which to insert the new node
